@@ -3,6 +3,7 @@
 using namespace std;
 
 int main(){
+    int fun = 100;
     int capacity = 100; // edit the capacity quickly i thought why to make a saperate charector for it if we can directly put the value but what if we have to increase or decrease it kya 50 jagaho se edit karoge?
     int totalparticipants = 0;
 
@@ -16,7 +17,7 @@ int main(){
             cout<<"Sorry, this party is only for GECA aluminus\n Only GECA students are permitted."<<endl;
             continue;
         }
-
+        cout<<fun;
         cout<< endl<< "Enter Passcode: ";
         cin >> passcode;
 
